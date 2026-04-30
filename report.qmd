@@ -14,8 +14,8 @@ editor:
 
 The bilingual Stroop paradigm is a modification of the original Stroop task @stroop_studies_1935, and tests for interference effects between- and within-language.
 The Stroop effect is when a slower reaction time is incurred as a result of participants’ being presented with a colour term (e.g., RED) in a different text colour (e.g., RED in blue text).
-This nature of this inhibitory effect is semantic, as participants must suppress the associated colour term which is activated upon reading the lexical colour term in order to select a response associated with another colour term.
-In a bilingual Stroop task, participants complete the task in both languages and previous studies have found the classic Stroop effect both within-language and between-language \[ @brauer1998 ; @sumiya_phonology_2004; @saban_interlinguistic_2022 \].
+The nature of this inhibitory effect is semantic, as participants must suppress the associated colour term which is activated upon reading the lexical colour term in order to select a response associated with another colour term.
+In a bilingual Stroop task, participants complete the task in both languages and previous studies have found the classic Stroop effect both within-language and between-language [@brauer1998; @sumiya_phonology_2004; @saban_interlinguistic_2022].
 Therefore, this indicates that both the L1 and the L2 is activated in the bilingual lexicon in Stroop tasks.
 However, the nature of this co-activation is not entirely clear. 
 
@@ -28,20 +28,20 @@ However, Brauer did not explicitly distinguish whether the stimuli items used in
 Therefore, phonological interference may have impacted these results, as has been found in Sumiya and Healy’s study [@sumiya_phonology_2004].
 
 The bilingual Stroop effect was investigated in the phonological domain by @sumiya_phonology_2004.
-English-Japanese bilinguals took part in a bilingual Stroop task with Japanese stimuli items that were either cognates of English or were traditional Japanese colour terms that are phonologically distinct from English colour terms.
-The cognates induced a stronger Stroop effect despite being in a different orthographic script, thus demonstrating a phonological effect in lexical access for bilinguals.
+High-proficiency English-Japanese bilinguals took part in a bilingual Stroop task with Japanese stimuli items that were either cognates of English, or were traditional Japanese colour terms that are phonologically distinct from English colour terms.
+The cognates induced a stronger Stroop effect despite being in a different orthographic script to English, thus demonstrating a phonological effect in lexical access for bilinguals.
 Therefore, according to Sumiya and Healy, this study strongly suggests that lexical items in the L1 and the L2 are connected at the phonological level.
 However, as the phonologically similar items in this study are cognates, the phonological effect found here may be indicative of a semantic effect that cannot be disambiguated in this Stroop task design.
-If the phonological representations of lexical items in the L1 and L2 are connected, thus impacting lexical access, items that are phonologically similar but semantically distinct would still induce the Stroop effect. 
+If the phonological representations of lexical items in the L1 and the L2 are connected, thus impacting lexical access, items that are phonologically similar but semantically distinct would still induce the Stroop effect. 
 
 The current study sought to disambiguate potential orthographic and semantic interference from potential phonological interference found in previous studies [@brauer1998; @sumiya_phonology_2004; @saban_interlinguistic_2022], to investigate whether phonological processing does occur in lexical access in the bilingual lexicon.
-A bilingual Stroop paradigm was employed with Greek-English bilinguals and Spanish-English bilinguals, all of whom were high-proficiency in their L2 (English).
+A bilingual Stroop paradigm was employed with Greek-English bilinguals and Spanish-English bilinguals, all of whom were of a high-proficiency in their L2 (English).
 Both Spanish and English are written in Latin script, whereas Greek is written in Greek script.
 Latin script has a more transparent grapheme-phoneme mapping than Greek script.
-Thus, comparing responses between the two bilingual groups will indicate whether orthographic similarity modulates the bilingual Stroop effect and thereby whether lexical access in the bilingual lexicon is modulated by orthographic similarity of the L1 and L2. 
+Thus, comparing responses between the two bilingual groups will indicate whether orthographic similarity modulates the bilingual Stroop effect and thereby whether lexical access in the bilingual lexicon is modulated by orthographic similarity of the L1 and the L2. 
 
-A facilitatory Stroop effect has been found when there is word initial phonological overlap between the stimulus item and the text colour [@kinoshita_phonological_2021; @coltheart_position-sensitive_1999; @verdonschot_mora_2018].
-Thus, to examine phonological effects in this study and to distinguish them from semantic effects, this Stroop paradigm in the current study included non-colour lexical items that have the same phonological onset of the initial syllable as the text colour it appears in.
+A facilitatory Stroop effect has been found when there is word initial phonological overlap between the stimulus item and the text colour that the stimulus item appears in [@kinoshita_phonological_2021; @coltheart_position-sensitive_1999; @verdonschot_mora_2018].
+Thus, to examine phonological effects in this study and to distinguish them from semantic effects, the Stroop paradigm in the current study included non-colour lexical items that have the same phonological onset of the initial syllable as the text colour it appears in.
 This “onset effect” [@kinoshita_phonological_2021] was tested in both the L1 and the L2 to colour terms in the L1 and the L2, to determine if phonological activation occurs between- and within-languages.
 This Stroop task is not a phonological task in which participants verbalise responses, as phonological processing effects have been found to impact manual responses also [@parris_response_2019]. 
 
@@ -53,7 +53,7 @@ This study addresses the following research questions:
 
 - Research Question 2: does lexical access involve phonological processing?
 
-- Research Question 3: are lexical items in the L1 and L2 phonologically connected?
+- Research Question 3: are lexical items in the L1 and the L2 phonologically connected?
 
 ### Research Hypotheses
 
@@ -65,7 +65,7 @@ In line with the previous studies discussed above, the following hypotheses were
 
 - Phonological processing impacts lexical access and stimuli items that phonologically overlap with the text colour will have a facilitatory effect within-language
 
-- Lexical items are phonologically connected in the bilingual lexicon and stimuli items that phonologically overlap with the text colour will have an inhibitory effect between-language
+- Lexical items are phonologically connected in the bilingual lexicon and stimuli items that phonologically overlap with the text colour will have an inhibitory effect between-language due to between-language interference
 
 ## Methods
 
@@ -74,7 +74,7 @@ In line with the previous studies discussed above, the following hypotheses were
 6 Greek-English bilinguals and 5 Spanish-English bilinguals took part in this study.
 Participation was voluntary and no compensation was given.
 Participants were recruited through informal networks.
-A participation information sheet was presented to participants prior to the experiment.
+A participation information sheet was presented to participants prior to the experiment to obtain their consent to participate in this study.
 The inclusion criteria for participants was native-level proficiency in their L1 and high-level proficiency in English for reading, speaking and listening abilities as these language skills are relevant to this study.
 
 5 of the 6 Greek-English bilingual participants reported native proficiency in reading, writing, listening and speaking in Greek and high proficiency in reading, writing, listening and speaking in English.
@@ -145,31 +145,31 @@ The lexical items in Greek were extracted from @pring_pocket_2000 and the lexica
 
 ### Procedure
 
-The experiment was online and hosted on Testable. 
+The experiment was conducted online and hosted on Testable.
 Participants were sent a link to complete the experiment and were told to complete it on a device with keyboard keys. 
 After clicking on the link, participants were first presented with a participation information sheet. 
-For the Stroop task, participants responded with key presses to signify which colour the stimulus word is presented in. 
-Reaction times (henceforth RTs) were recorded for analysis. 
-After completing the experiment, participants were presented with a form collecting information on their self-rated proficiency in their L1 and in their L2. 
-A Lickert scale of proficiency level (native, high, intermediate, low) and language skill (reading, writing, listening and speaking) for Greek/Spanish and English was presented to participants to record responses. 
-A follow up question on the form asked participants if they speak any other languages (and to what proficiency) and they responded with a text box.
+For the Stroop task, participants responded with key presses to signify which colour the stimulus word was presented in.
+Reaction times (henceforth RTs) were recorded for analysis.
+After completing the experiment, participants were presented with a form collecting information on their self-rated proficiency in their L1 and in their L2.
+A Likert scale of proficiency level (native, high, intermediate, low) and language skill (reading, writing, listening and speaking) for Greek/Spanish and English was presented to participants to record responses.
+A follow up question on the form asked participants if they speak any other languages (and to what proficiency) and they responded with a text box.
 
 ### Statistical Analysis
 
-A lognormal regression model was used to run a Bayesian statistical analysis of the results.
+A log-normal regression model was used to run a Bayesian statistical analysis of the results.
 To address the research questions, the following comparisons will be made between the expected values of the posterior predictive distribution (epreds): 
 
 - Research Question 1: The epreds of the RTs to the within-language incongruent stimulus types (L1 and L2) will be compared to the epreds of RTs of the control stimulus types (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
 
 - Research Question 2: The epreds of the RTs to the within-language onset stimulus types (L1 to L1 and L2 to L2) will be compared to the epreds of the RTs to the control stimulus types (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
 
-- Research Q3: The epreds of RTs to the between-language onset stimulus types (L1 to L2 and L2 to L1) will be compared to the epreds of the RTs to the control stimulus types (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
+- Research Question 3: The epreds of RTs to the between-language onset stimulus types (L1 to L2 and L2 to L1) will be compared to the epreds of the RTs to the control stimulus types (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
 
 ### Open Research Statement
 
-This research project has all resources available at this GitHub repository: \<liache3/rmdl-assessment-2-B285757\>
+This research project has all resources available at this GitHub repository: \<[liache3/rmdl-assessment-2-B285757](https://github.com/liache3/rmdl-assessment-2-B285757)\>
 
-The GitHub repository hosts all stimuli materials, the Testable experiment files and the anonymised participant data.
+The GitHub repository hosts the Testable experiment files (including a full list of the stimuli) and the anonymised participant data.
 
 ## Data Processing
 
@@ -390,7 +390,7 @@ All values for each language condition are labelled either under 'greek' (for th
 
 ##### Figure 1 Description
 
-Figure 1 is configuration of four violin plots visualising all of data across all conditions and both Stroop tasks.
+Figure 1 is configuration of four violin plots visualising data across all conditions and both Stroop tasks.
 The violin plots are split according to participant group and to language condition.
 The x-axis represents the categorical variable of stimulus type: congruous (in green), incongruous (in purple), control (in orange) and onset (in pink).
 The y-axis represents the continuous variable of RTs (in milliseconds).
@@ -467,11 +467,11 @@ From the plot, the RTs to the incongruous condition across participant groups do
 Figure 3 is a violin plot visualising the potential within-language phonological processing effects in both Stroop tasks.
 The violin plots are split according to participant group and to language condition.
 The x-axis represents the categorical variable of stimulus type: onset (in orange) and control (in green).
-The y-axis represents the continuous variable of RT (in milliseconds)
+The y-axis represents the continuous variable of RT (in milliseconds).
 
-Figure 3 addresses Research Question 2 by comparing the reaction times RTs for the within language overlapping phonological onset stimulus type (L1 to L1 onset and L2 to L2 onset) to the control stimulus type (L1 and L2) for the Greek Stroop task and the Spanish Stroop task.
-This comparison establishes if the within-language overlapping phonological onset (e.g., the phonological onset of the Greek colour term for the text colour overlaps with the phonological onset of the Greek stimulus item) modulates processing by impacting reaction times in comparison to the control stimulus type in which there is no semantic or phonological effect.
-Thus, the results for both Greek-English and Spanish-English bilinguals is presented for reaction times to the within-language onset and the control stimulus type in their L1 and in their L2.
+Figure 3 addresses Research Question 2 by comparing the RTs for the within language overlapping phonological onset stimulus type (L1 to L1 onset and L2 to L2 onset) to the control stimulus type (L1 and L2) for the Greek Stroop task and the Spanish Stroop task.
+This comparison establishes if the within-language overlapping phonological onset (e.g., the phonological onset of the Greek colour term for the text colour overlaps with the phonological onset of the Greek stimulus item) modulates processing by impacting RTs in comparison to the control stimulus type in which there is no semantic or phonological effect.
+Thus, the results for both Greek-English and Spanish-English bilinguals is presented for RTs to the within-language onset and the control stimulus type in their L1 and in their L2.
 
 ```{r}
 #figure 3 tibble
@@ -571,10 +571,10 @@ print(as_tibble(all_data_raw_summary))
 
 ## Statistical Analysis
 
-### Lognormal Regression Model
+### Log-normal Regression Model
 
-A Bayesian regression model was fitted with a log-normal family for the outcome variable (RT) using the brms package. 
-Condition, participant group and the within-participant-condition interaction were set as predictors, with the L1 congruous Greek condition as the reference level. 
+A Bayesian regression model was fitted with a log-normal family for the outcome variable (RT) using the brms package.
+Condition, participant group and the within-participant-condition interaction were set as predictors, with the L1 congruous Greek condition as the reference level.
 A log-normal family was used as the outcome variable (RT) is a continuous variable that can only be a positive value.
 This model calculates the interactions of the categorical predictors of condition (informing stimulus type (e.g., incongruous) and relation (e.g., L1)) and participant group (informing which Stroop task (Greek or Spanish) the data is from).
 
@@ -768,23 +768,23 @@ Greek-English and Spanish-English bilinguals took part in a bilingual Stroop par
 To disambiguate between potential interference effects from orthographic similarity in the L1 and L2 (as posited by @brauer1998) and phonological processing, this study compared the RTs of the Greek-English bilinguals and the Spanish-English bilinguals to incongruous and control stimulus types within their L1 and their L2.
 It was predicted that the classic Stroop effect would be found, with longer RTs to the incongruous stimulus types than to controls.
 In line with @brauer1998, it was also predicted that the Spanish-English bilinguals would have longer RTs to the incongruous stimulus items than the Greek-English bilinguals due to Spanish and English sharing the same orthographic script, unlike Greek and English.
-From both the raw data and statistical model, the classic Stroop effect an an effect of orthographic similarity between the L1 and L2 were not found in either participant group.
+From both the raw data and the statistical model, the classic Stroop effect and an effect of orthographic similarity between the L1 and the L2 were not found in either participant group.
 
 To establish if lexical access involves phonological processing, participants were presented with stimuli items that shared the same phonological onset of the word initial syllable of the text colour (in their L1) it appeared in.
-It was predicted that a facilitory effect would be found with shorted RTs to the within-language onset stimulus type than to the control stimuli items.
+It was predicted that a facilitatory effect would be found with shorter RTs to the within-language onset stimulus type than to the control stimuli items.
 However, neither the Spanish-English nor the Greek-English bilinguals exhibited behavioural evidence for phonological processing for within-language lexical access.
 
-To investigate if the L1 and L2 in the bilingual lexicon is connected at the lexical level, the RTs were recorded to stimuli items that shared the same phonological onset of the word initial syllable of the text colour it appeared in, with the stimuli in the L1 and the phonological onset overlapped with the L2 colour term or vis versa with an L2 stimulus item and phonologically overlapping with the onset of the L1 colour term.
+To investigate if the L1 and L2 in the bilingual lexicon is connected at the lexical level, the RTs were recorded to stimuli items that shared the same phonological onset of the word initial syllable of the text colour it appeared in, with the phonological onset of the stimuli in the L1 overlapped with the phonological onset of the L2 colour term or vis versa with an L2 stimulus item phonologically overlapping with the onset of the L1 colour term.
 These results were then compared to RTs to control stimuli items.
-It was predicted that an inihibatory effect would be found in processing between-language onset stimulus types due to interference caused in accessing the colour term in one language by the phonological activation of the colour term in the other language.
+It was predicted that an inhibitory effect would be found in processing between-language onset stimulus types due to interference caused in accessing the colour term in one language by the phonological activation of the colour term in the other language.
 As with the other predictions made in this study, the raw data and the statistical model did not indicate an effect of between-language phonological processing on lexical access in bilinguals.
 
 As an effect was not found across all analyses, this study cannot draw firm conclusions for any of the research questions investigated.
-Thus, it is still unclear whether orthographic similarity in the L1 and L2 modulates lexical access for bilinguals, or of phonological processing both within- and between-languages impacts lexical access in the bilingual lexicon.
+Thus, it is still unclear whether orthographic similarity in the L1 and the L2 modulates lexical access for bilinguals, or if phonological processing both within- and between-languages impacts lexical access in the bilingual lexicon.
 
 ### Limitations
 
-The small sample size is a clear limitation of this study and is likely why an effect was not found in analysis of the raw data or of the statistical regression model, and future studies should recruit more participants to gather enough data to determine if there is an effect of any of the conditions within this experimental design.
+The small sample size is a clear limitation of this study and is likely why an effect was not found in the analysis of the raw data or of the statistical regression model, and future studies should recruit more participants to gather enough data to determine if there is an effect of any of the conditions within this experimental design.
 Another limitation is that the order of language blocks in both the Greek-English and the Spanish-English Stroop tasks were not counter-balanced across participants.
 Therefore, the increased variability in reaction times in the L1 language condition in both experiments compared to the L2 language condition may be due to the ordering of the trials, as participants may have had quicker reaction times after being exposed to more trials upon encountering the L2 language block.
 Thus, future studies should implement this design with a counter-balanced order of language blocks across participants to reduce this possible source of interference.

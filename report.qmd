@@ -27,7 +27,8 @@ Brauer interpreted these results to indicate that bilinguals with orthographical
 However, Brauer did not explicitly distinguish whether the stimuli items used in this study could have induced phonological effects despite investigating co-activation in the bilingual lexicon.
 Therefore, phonological interference may have impacted these results, as has been found in Sumiya and Healy’s study \[ @sumiya_phonology_2004 \].
 
-The bilingual Stroop effect was investigated in the phonological domain by @sumiya_phonology_2004. English-Japanese bilinguals took part in a bilingual Stroop task with Japanese stimuli items that were either cognates of English or were traditional Japanese colour terms that are phonologically distinct from English colour terms.
+The bilingual Stroop effect was investigated in the phonological domain by @sumiya_phonology_2004.
+English-Japanese bilinguals took part in a bilingual Stroop task with Japanese stimuli items that were either cognates of English or were traditional Japanese colour terms that are phonologically distinct from English colour terms.
 The cognates induced a stronger Stroop effect despite being in a different orthographic script, thus demonstrating a phonological effect in lexical access for bilinguals.
 Therefore, according to Sumiya and Healy, this study strongly suggests that lexical items in the L1 and the L2 are connected at the phonological level.
 However, as the phonologically similar items in this study are cognates, the phonological effect found here may be indicative of a semantic effect that cannot be disambiguated in this Stroop task design.
@@ -148,7 +149,7 @@ The experiment was online and hosted on Testable. 
 Participants were sent a link to complete the experiment and were told to complete it on a device with keyboard keys. 
 After clicking on the link, participants were first presented with a participation information sheet. 
 For the Stroop task, participants responded with key presses to signify which colour the stimulus word is presented in. 
-Reaction time (milliseconds) were recorded for analysis. 
+Reaction times (henceforth RTs) were recorded for analysis. 
 After completing the experiment, participants were presented with a form collecting information on their self-rated proficiency in their L1 and in their L2. 
 A Lickert scale of proficiency level (native, high, intermediate, low) and language skill (reading, writing, listening and speaking) for Greek/Spanish and English was presented to participants to record responses. 
 A follow up question on the form asked participants if they speak any other languages (and to what proficiency) and they responded with a text box.
@@ -158,11 +159,11 @@ A follow up question on the form asked participants if they speak any other la
 A lognormal regression model was used to run a Bayesian statistical analysis of the results.
 To address the research questions, the following comparisons will be made between the expected values of the posterior predictive distribution (epreds): 
 
-- Research Question 1: The epreds of the within-language incongruent conditions (L1 and L2) will be compared to the epreds of the control conditions (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
+- Research Question 1: The epreds of the RTs to the within-language incongruent stimulus types (L1 and L2) will be compared to the epreds of RTs of the control stimulus types (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
 
-- Research Question 2:The epreds of the within-language onset conditions (L1 to L1 and L2 to L2) will be compared to the epreds of the control conditions (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
+- Research Question 2: The epreds of the RTs to the within-language onset stimulus types (L1 to L1 and L2 to L2) will be compared to the epreds of the RTs to the control stimulus types (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
 
-- Research Q3: The epreds of the between-language onset conditions (L1 to L2 and L2 to L1) will be compared to the epreds of the control conditions (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
+- Research Q3: The epreds of RTs to the between-language onset stimulus types (L1 to L2 and L2 to L1) will be compared to the epreds of the RTs to the control stimulus types (L1 and L2) of each Stroop task, with the differences between these conditions compared between participant group 
 
 ### Open Research Statement
 
@@ -353,7 +354,19 @@ all_quant_data <- all_quant_data %>%
   )
 ```
 
-The final data frame 'all_quant_data' contains the following columns: participant - this is the participant id participant_group - this is the participant group condition - this is the trial condition stimulus_type - this is the type of stimulus presented RT - this is the reaction time of key press responses language - this is the language that the stimulus was presented in
+The final data frame 'all_quant_data' contains the following columns:
+
+- participant - this is the participant id
+
+- participant_group - this is the participant group
+
+- condition - this is the trial condition
+
+- stimulus_type - this is the type of stimulus presented
+
+- RT - this is the reaction time of key press responses
+
+- language - this is the language that the stimulus was presented in
 
 See all condition and stimulus types explained in the Methods section above.
 
@@ -380,7 +393,7 @@ All values for each language condition are labelled either under 'greek' (for th
 Figure 1 is configuration of four violin plots visualising all of data across all conditions and both Stroop tasks.
 The violin plots are split according to participant group and to language condition.
 The x-axis represents the categorical variable of stimulus type: congruous (in green), incongruous (in purple), control (in orange) and onset (in pink).
-The y-axis represents the continuous variable of reaction time (in milliseconds).
+The y-axis represents the continuous variable of RTs (in milliseconds).
 
 ```{r}
 #figure 1 plot
@@ -398,7 +411,8 @@ all_quant_data %>%
 
 ##### Figure 1 Results
 
-In Figure 1, the results show that the Greek-English bilinguals had more variable response times to all stimulus types in the Greek language condition than in the English language condition.This patter of responses is also found for the Spanish-English bilinguals.
+In Figure 1, the results show that the Greek-English bilinguals had more variable RTs to all stimulus types in the Greek language condition than in the English language condition.
+This pattern of responses is also found for the Spanish-English bilinguals.
 
 #### Figure 2
 
@@ -409,7 +423,7 @@ The violin plots are split according to participant group and to language condit
 The x-axis represents the categorical variable of stimulus type: incongruous (in orange) and control (in green).
 The y-axis represents the continuous variable of reaction time (in milliseconds).
 
-Figure 2 address Research Question 1 by comparing the reaction times for the L1 incongruous and L1 control stimulus types and the L2 incongruous and L2 control stimulus types for each language group (Greek or Spanish).
+Figure 2 address Research Question 1 by comparing the RTs for the L1 incongruous and L1 control stimulus types and the L2 incongruous and L2 control stimulus types for each language group (Greek or Spanish).
 This comparison establishes if there is a Stroop effect in the L1 and in the L2 within-language, and if this Stroop effect in the L2 is stronger in Spanish-English bilinguals than the Greek-English bilinguals as predicted by @brauer1998 .
 
 ```{r}
@@ -438,7 +452,11 @@ orthographic_effect_raw %>%
 
 ##### Figure 2 Results
 
-In Figure 2, the Greek-English bilinguals have more varied and longer reaction times to the L1 stimulus types than to the L2 stimulus types.
+In Figure 2, the Greek-English bilinguals had more varied and longer RTs to the L1 stimulus types than to the L2 stimulus types.
+There were minimally longer RTs by the Greek-English bilinguals to the incongruous stimulus type than to the control stimulus type in both the Greek and English language conditions.
+
+The Spanish-English bilinguals also had more varied and longer RTs to the L1 stimulus types than to the L2 stimulus types.
+There were minimally longer RTs by the Spanish-English bilinguals to the incongruous stimulus type than to the control stimulus type in both the Spanish and English language conditions, with an outlier longer RT to the control stimulus type in the Spanish language condition.
 
 #### Figure 3
 
@@ -447,9 +465,9 @@ In Figure 2, the Greek-English bilinguals have more varied and longer reaction t
 Figure 3 is a violin plot visualising the potential within-language phonological processing effects in both Stroop tasks.
 The violin plots are split according to participant group and to language condition.
 The x-axis represents the categorical variable of stimulus type: onset (in orange) and control (in green).
-The y-axis represents the continuous variable of reaction time (in milliseconds)
+The y-axis represents the continuous variable of RT (in milliseconds)
 
-Figure 3 addresses Research Question 2 by comparing the reaction times for the within language overlapping phonological onset stimulus type (L1 to L1 onset and L2 to L2 onset) to the control stimulus type (L1 and L2) for the Greek Stroop task and the Spanish Stroop task.
+Figure 3 addresses Research Question 2 by comparing the reaction times RTs for the within language overlapping phonological onset stimulus type (L1 to L1 onset and L2 to L2 onset) to the control stimulus type (L1 and L2) for the Greek Stroop task and the Spanish Stroop task.
 This comparison establishes if the within-language overlapping phonological onset (e.g., the phonological onset of the Greek colour term for the text colour overlaps with the phonological onset of the Greek stimulus item) modulates processing by impacting reaction times in comparison to the control stimulus type in which there is no semantic or phonological effect.
 Thus, the results for both Greek-English and Spanish-English bilinguals is presented for reaction times to the within-language onset and the control stimulus type in their L1 and in their L2.
 
@@ -480,7 +498,12 @@ phonological_effect_raw %>%
 
 ##### Figure 3 Results
 
-X
+In Figure 3, the Greek-English bilinguals had minimally longer RTs to the within-language onset stimulus types than to the control stimulus types in both the Greek and English language conditions, with an outlier longer RTs to the control stimulus type in the Greek language condition.
+
+The Spanish-English bilinguals had minimally longer RTs to the within-language onset stimulus types than to the control stimulus types in the Spanish language condition, with an outlier longer RT to the control stimulus type in this language condition.
+In the English language condition, Spanish-English bilingual participants had similar RTs to the within-language onset stimulus type and to the control stimulus type.
+
+In the English language condition, the Greek-English and Spanish-English bilinguals had similar results, with an outlier longer RT to the within-language onset stimulus type by the Spanish-English bilingual participant group.
 
 #### Figure 4
 
@@ -490,9 +513,9 @@ Figure 4 is a violin plot visualising the potential between-language phonologica
 The violin plots are split according to participant group and to language condition.
 The x-axis represents the categorical variable of stimulus type: onset (in orange) and control (in green).
 
-Figure 4 addresses Research Question 3 by comparing the reaction times for the between language overlapping phonological onset stimulus type (L1 to L2 onset and L2 to L1 onset) to the control stimulus type (L1 and L2) for the Greek Stroop task and the Spanish Stroop task.
-This comparison establishes if the between-language overlapping phonological onset (e.g., the phonological onset of the Greek colour term for the text colour overlaps with the phonological onset of the English stimulus item) modulates processing by impacting reaction times in comparison to the control stimulus type in which there is no semantic or phonological effect.
-Thus, the results for both Greek-English and Spanish-English bilinguals is presented for reaction times to the onset stimulus type between-language, and the control stimulus type in their L1 and in their L2.
+Figure 4 addresses Research Question 3 by comparing the RTs for the between language overlapping phonological onset stimulus type (L1 to L2 onset and L2 to L1 onset) to the control stimulus type (L1 and L2) for the Greek Stroop task and the Spanish Stroop task.
+This comparison establishes if the between-language overlapping phonological onset (e.g., the phonological onset of the Greek colour term for the text colour overlaps with the phonological onset of the English stimulus item) modulates processing by impacting RTs in comparison to the control stimulus type in which there is no semantic or phonological effect.
+Thus, the results for both Greek-English and Spanish-English bilinguals is presented for RTs to the onset stimulus type between-language, and the control stimulus type in their L1 and in their L2.
 
 ```{r}
 #figure 4 tibble
@@ -523,25 +546,35 @@ bilingual_phonological_effect_raw %>%
 
 ##### Figure 4 Results
 
-X
+In Figure 4, the Greek-English bilinguals had minimally longer RTs to the between-language L1 to L2 onset stimulus type (when the Greek stimulus item has the same phonological onset as the English colour term that the stimulus item is presented in) than to the L1 control stimulus type in the Greek language condition.
+The Greek-English bilinguals also had minimally longer RTS to the between-language L2 to L1 onset stimulus type (when the English stimulus item has the same phonological onset as the Greek colour term that the stimulus item is presented in) than to the L2 control stimulus type in the English language condition.
+
+The Spanish-English bilinguals had minimally longer RTs to the between-language L1 to L2 onset stimulus type (when the Spanish stimulus item has the same phonological onset as the English colour term that the stimulus item is presented in) than to the L1 control stimulus type in the Spanish language condition, with an outlier longer RT to the L1 control stimulus type.
+The Spanish-English bilinguals had similar RTs to the between-language L2 to L1 onset stimulus type (when the English stimulus item has the same phonological onset as the Spanish colour term that the stimulus item is presented in) than to the L2 control stimulus type in the English language condition.
 
 ### Raw Data Summary
+
+The tibble below displays summaries of the raw data, with the mean (mean RT) and standard deviation (sd_RT) of the RTs to each stimulus type (condition) and language condition (language).
 
 ```{r}
 #this provides summary measures of the mean, median, standard deviation,
 #minimum and maximum reaction time values for each condition
 all_data_raw_summary <- all_quant_data %>%
   group_by(condition, language) %>%
-  summarise(mean = mean(RT), median(RT), sd(RT), min(RT), max(RT))
+  summarise(mean = mean(RT), sd(RT))
+
+#this displays the summary of the raw data
+print(as_tibble(all_data_raw_summary))
 ```
 
 ## Statistical Analysis
 
 ### Lognormal Regression Model
 
-As outcome variable of this model is reaction time (milliseconds), which is a continuous variable that can only be positive.
-Thus, this model is run using a lognormal family.
-The model calculates the interactions of the categorical predictors of condition and participant group (informing which Stroop task (Greek or Spanish) the data is from) and condition (which has stimulus type (e.g., incongruous)) and relation (e.g., L1), and the within participant interaction with condition.
+A Bayesian regression model was fitted with a log-normal family for the outcome variable (RT) using the brms package. 
+Condition, participant group and the within-participant-condition interaction were set as predictors, with the L1 congruous Greek condition as the reference level. 
+A log-normal family was used as the outcome variable (RT) is a continuous variable that can only be a positive value.
+This model calculates the interactions of the categorical predictors of condition (informing stimulus type (e.g., incongruous) and relation (e.g., L1)) and participant group (informing which Stroop task (Greek or Spanish) the data is from).
 
 ```{r}
 #regression model
@@ -562,7 +595,10 @@ all_quant_data_simple_brm <- brm(
 
 #### Statistical Data Summary
 
-X
+At 95% credible interval, all predictors crossed 0.
+Thus, there is no evidence for a positive or negative effect in these results.
+
+All RT values reported within the statistical analysis are of logged milliseconds.
 
 ```{r}
 #model summary
@@ -573,23 +609,19 @@ X
 all_data_brm_summary <- summary(all_quant_data_simple_brm)
 
 
-#this presents the summary data from the lognormal regression model
-#as a tibble at an 80% credible interval
-
-all_data_brm_summary_80CrI <- summary(all_quant_data_simple_brm, prob = 0.8)
 ```
 
 ```{r}
 #draws from the model
 
 #this saves the values from the draws as a tibble to then calculate
-#the expected predicted reactions times for the different conditions
+#the epreds of RTs for the different conditions
 #and participant groups.
 
 all_data_brm_draws <- as_draws_df(all_quant_data_simple_brm)
 
 
-#this creates a tibble with the expected predictions of reactions times
+#this creates a tibble with the epreds of RTs
 #for the conditions and participant groups.
 #the columns are named according to the L1 language of the experiment
 #(Greek or Spanish), the relation of the stimulus type to the L1
@@ -617,12 +649,31 @@ all_data_brm_draws_epreds <- all_data_brm_draws %>%
     Spanish_L2L1_onset = b_Intercept + `b_conditionL2_L1_onset:participant_groupspanish_participant`
     )
 
-#this creates a tibble with the expected predictions of reactions times
+#this creates a tibble with the epreds of RTs
 #for the conditions and participant groups pertaining to
 #the research questions of this study.
 
 critical_epreds <- all_data_brm_draws_epreds %>%
   select(Greek_L1_incongruous, Greek_L2_incongruous, Spanish_L1_incongruous, Spanish_L2_incongruous, Greek_L1_control, Greek_L2_control, Spanish_L1_control, Spanish_L2_control, Greek_L1L1_onset, Greek_L2L2_onset, Greek_L1L2_onset, Greek_L2L1_onset, Spanish_L1L1_onset, Spanish_L2L2_onset, Spanish_L1L2_onset, Spanish_L2L1_onset)
+  
+
+
+#this creates a tibble by adding columns with the pivot_longer function
+#to separate the different conditions (language, relation and stimulus type)
+#the column 'cond' is the with the conditions as values and
+#the column 'epred' is the logged reaction times from the draws
+#for these conditions.
+  
+critical_epreds_long <- critical_epreds %>%
+    pivot_longer(Greek_L1_incongruous:Spanish_L2L1_onset, names_to = "cond", values_to = "epred") %>%
+  
+    #this splits the `cond` column to make columns for language
+  #(whether the experiment was for the Greek or Spanish participants),
+  #relation (how the stimulus type relates to the language of
+  #the experiment (L1 is Greek or Spanish, L2 is English)) and
+  #condition (what the stimulus type is).
+  
+    separate(cond, c("language", "relation", "condition"))
 
 ```
 
@@ -630,87 +681,73 @@ critical_epreds <- all_data_brm_draws_epreds %>%
 
 #### Figure 5
 
-##### Figure 5 Description
-
-Figure 5 addresses Research Question 1 by creating columns which allow comparison of the expected predicted reaction times for the L1 incongruous and L1 control conditions and the L2 incongruous and L2 control conditions to establish if there is a predicted Stroop effect in the L1 and in the L2 within language, and if this predicted Stroop effect in the L2 is stronger in Greek-English bilinguals or Spanish-English bilinguals the column 'cond' is the with the conditions as values and the column 'epred' is the logged reaction times from the draws for these conditions
-
 ```{r}
-#Figure 5 tibble
+#Figure 5
 
-#this creates a tibble by selecting columns from the draws data frame
-#for the within-language incongruous and control stimulus types,
-#and adding columns with the pivot_longer function to separate the
-#different conditions (language, relation and stimulus type)
-#the column 'cond' is the with the conditions as values and
-#the column 'epred' is the logged reaction times from the draws
-#for these conditions.
+#Figure 5 tibble addressing research question 1
+#creates a tibble with only 'control' and 'incongruous' conditions
 
-orthographic_effect_epreds <- critical_epreds %>%
-  select(Greek_L1_incongruous:Spanish_L2_control) %>%
-  pivot_longer(Greek_L1_incongruous:Spanish_L2_control, names_to = "cond", values_to = "epred") %>%
-  
-  #this splits the `cond` column to make columns for language
-  #(whether the experiment was for the Greek or Spanish participants),
-  #relation (how the stimulus type relates to the language of
-  #the experiment (L1 is Greek or Spanish, L2 is English)) and
-  #condition (this is whether the stimulus type is for the incongruous
-  #or control condition).
-  
-  separate(cond, c("language", "relation", "condition"))
+orthographic_effect_epreds_long <- critical_epreds_long %>%
+  filter(
+    condition != "onset",
+    condition != "congruous"
+  )
 
-
-#Figure 5 plot
-orthographic_effect_epreds %>% 
+#Figure 5 plot addressing research question 1
+orthographic_effect_epreds_long %>% 
   ggplot(aes(epred, relation, fill=condition)) +
   stat_halfeye(alpha = 0.8) +
-  facet_grid(cols = vars(language), scales = "free_x")
+  facet_grid(cols = vars(language), scales = "free_x") +
+  labs(title = "Figure 5")
 ```
 
 ##### Figure 5 Results
 
-X
+Figure 5 shows that the credible intervals of the epreds heavily overlap across the control and incongruous stimulus types and across both language conditions for the Greek-English bilinguals and the Spanish-English bilinguals.
 
 #### Figure 6
 
-##### Figure 6 Description
-
-X
-
 ```{r}
+#Figure 6
 
-#research Q2 within language comparison of control and onset conditions
-phonological_effect_epreds <- critical_epreds %>%
-  select(Greek_L1_control, Spanish_L1_control, Greek_L1L1_onset, Spanish_L1L1_onset, Greek_L2_control, Spanish_L2_control, Greek_L2L2_onset, Spanish_L2L2_onset) %>%
-  pivot_longer(Greek_L1_control:Spanish_L2L2_onset, names_to = "cond", values_to = "epred") %>%
-  # Split `cond` column to make a column for language, relation and condition
-  separate(cond, c("language", "relation", "condition"))
+#Figure 6 tibble addressing research question 2
+#creates a tibble with only 'control' and 'onset' stimulus types
+#and only for within-language conditions (L1_L1 and L2_L2)
+phonological_effect_epreds_long <- critical_epreds_long %>%
+  filter(
+    condition != "incongruous",
+    condition != "congruous",
+    relation != "L1L2",
+    relation != "L2L1"
+  )
 
-
-phonological_effect_epreds %>% 
+#Figure 6 plot addressing research question 2
+phonological_effect_epreds_long %>% 
   ggplot(aes(epred, relation, fill=condition)) +
   stat_halfeye(alpha = 0.8) +
-  facet_grid(cols = vars(language), scales = "free_x")
-
+  facet_grid(cols = vars(language), scales = "free_x") +
+  labs(title= "Figure 6")
 ```
 
 ##### Figure 6 Results
 
-X
+Figure 6 shows that the credible intervals of the epreds heavily overlap across the control and within-language onset stimulus types and across both language conditions for the Greek-English bilinguals and the Spanish-English bilinguals.
 
 #### Figure 7
 
-##### Figure 7 Description
-
-X
-
 ```{r}
-#RQ3
-bilingual_phonological_effect_epreds <- critical_epreds %>%
-  select(Greek_L1_control, Greek_L2_control, Spanish_L1_control, Spanish_L2_control, Greek_L1L2_onset, Greek_L2L1_onset, Spanish_L1L2_onset, Spanish_L2L1_onset) %>%
-  pivot_longer(Greek_L1_control:Spanish_L2L1_onset, names_to = "cond", values_to = "epred") %>%
-  separate(cond, c("language", "relation", "condition"))
+#Figure 7
+#Figure 7 tibble addressing research question 3
+bilingual_phonological_effect_epreds_long <- critical_epreds_long %>%
+  filter(
+    condition != "incongruous",
+    condition != "congruous",
+    relation != "L1L1",
+    relation != "L2L2"
+  )
 
-bilingual_phonological_effect_epreds %>%
+#Figure 7 plot addressing research question 3
+bilingual_phonological_effect_epreds_long %>%
   ggplot(aes(epred, relation, fill=condition)) +
   stat_halfeye(alpha = 0.8) +
   facet_grid(cols = vars(language), scales = "free_x")
@@ -719,11 +756,21 @@ bilingual_phonological_effect_epreds %>%
 
 ##### Figure 7 Results
 
-X
+Figure 7 shows that the credible intervals of the epreds heavily overlap across the control and between-language onset stimulus types and across both language conditions for the Greek-English bilinguals and the Spanish-English bilinguals.
 
 ## Discussion
 
 *Write a brief discussion of the your model results in light of the research question.*
+
+This study sought to investigate whether lexical access is modulated by phonological processing, and thus if the bilingual lexicon has a connection between the L1 and L2 at the phonological level.
+
+research q 1 prediction
+
+research q2 prediction
+
+research q3 prediction
+
+overall no possible inference but design could be replicated with larger sample size
 
 ### Limitations 
 

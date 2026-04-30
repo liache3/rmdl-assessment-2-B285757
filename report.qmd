@@ -90,7 +90,7 @@ Each block consisted of 4 practice trials and 40 experimental trials, with 88 tr
 Each block consisted of 24 stimuli items, with each trial presented twice.
 All stimuli were presented in one of the following colours: yellow, green, orange and purple.
 The colour blue was not used in this Stroop paradigm as Greek has two basic colour terms for blue @androulaki_basic_2006 , thus this could be a source of interference.
-There were 4 stimulus types and 4 language conditions for each experiment (see Appendix A for a full list of the stimuli items):
+There were 4 stimulus types and 4 language conditions for each experiment (see GitHub repository for complete stimuli files):
 
 - Stimulus Type
 
@@ -168,7 +168,7 @@ To address the research questions, the following comparisons will be made betwee
 
 This research project has all resources available at this GitHub repository: liache3/rmdl-assessment-2-B285757
 
-See Appendix A for stimuli materials, Appendix B for the Testable experiment file and Appendix C for all anonymised participant data.
+The GitHub repository hosts all stimuli materials, the Testable experiment files and the anonymised participant data.
 
 ## Data Processing
 
@@ -731,4 +731,3 @@ The small sample size is a clear limitation of this study and is likely the caus
 The order of language blocks in both the Greek-English and the Spanish-English Stroop tasks were not counter-balanced across participants.
 Therefore, the less variability in reaction times in the L1 language condition in both experiments compared to the L2 language condition may be due to the ordering of the trials, as participants may have had quicker reaction times after exposure to more trials upon encountering the L2 language block.
 Thus, future studies should implement this design with a counter-balanced order of language blocks across participants to reduce this possible source of interference.
-
